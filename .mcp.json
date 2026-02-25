@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "kuk": {
+      "type": "stdio",
+      "command": "kuk",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    },
+    "kuk-pm": {
+      "type": "stdio",
+      "command": "kuk-pm",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    }
+  }
+}

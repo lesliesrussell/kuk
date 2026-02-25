@@ -1,0 +1,46 @@
+[workspace]
+members = ["kuk-pm"]
+
+[package]
+name = "kuk"
+version = "0.1.0"
+edition = "2024"
+description = "Git-native, JSON-first, AI-native, repo-scoped Kanban in your terminal"
+license = "MIT"
+
+[lib]
+name = "kuk"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kuk"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ulid = { version = "1", features = ["serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2"
+dirs = "6"
+colored = "3"
+
+# TUI
+ratatui = "0.29"
+crossterm = "0.28"
+
+# Server
+axum = "0.8"
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.6", features = ["cors"] }
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
+tempfile = "3"
+assert_fs = "1"
+reqwest = { version = "0.12", features = ["json"] }
+tokio-test = "0.4"
+tower = { version = "0.5", features = ["util"] }
+http-body-util = "0.1"
