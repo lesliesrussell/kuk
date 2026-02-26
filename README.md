@@ -1,11 +1,5 @@
-![kuk gremlin mascot](kuk.jpg)
-:::    ::: :::    ::: :::    ::: 
-:+:   :+:  :+:    :+: :+:   :+:  
-+:+  +:+   +:+    +:+ +:+  +:+   
-+#++:++    +#+    +:+ +#++:++    
-+#+  +#+   +#+    +#+ +#+  +#+   
-#+#   #+#  #+#    #+# #+#   #+#  
-###    ###  ########  ###    ### 
+![kuk gremlin mascot](kuk.png)
+
 kuk = Kanban Under Kontrol
 (also yes we know how it sounds, grow up)
 
